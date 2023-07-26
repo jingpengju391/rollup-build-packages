@@ -1,0 +1,27 @@
+{
+  "homepage": "",
+  "private": false,
+  "bugs": {
+    "url": ""
+  },
+  "license": "MIT",
+  "module": "index.js",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  },
+  "exports": {
+    ".": {
+      "require": "./cjs/index.js",
+      "import": "./esm/index.js",
+      "umd": "./umd/index.js"
+    }
+  }
+}
+  
