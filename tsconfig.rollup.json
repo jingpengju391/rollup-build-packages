@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "baseUrl": ".",
+    "paths": { "@/*": ["packages/*"] }
+  },
+  "include": ["packages/**/*.ts"],
+  "exclude": ["dist", "node_modules"]
+}
